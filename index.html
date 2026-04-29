@@ -118,6 +118,8 @@
     .tag-ftp { background: #3b82f6/10; color: #60a5fa; border: 1px solid #3b82f6/30; }
     .tag-ipv4 { background: #8b5cf6/10; color: #a78bfa; border: 1px solid #8b5cf6/30; }
     .tag-ipv6 { background: #d946ef/10; color: #f0abfc; border: 1px solid #d946ef/30; }
+    .tag-5g { background: #00d4ff/10; color: #00d4ff; border: 1px solid #00d4ff/30; }
+    .tag-5g { background: #00d4ff/10; color: #00d4ff; border: 1px solid #00d4ff/30; }
 
     .animate-on-scroll { opacity: 0; transform: translateY(20px); transition: all 0.6s ease; }
     .animate-on-scroll.visible { opacity: 1; transform: translateY(0); }
@@ -135,6 +137,8 @@
         <a href="#redes"      class="nav-link text-gray-400 hover:text-white text-sm font-display font-600 transition-colors">Redes</a>
         <a href="#projeto"    class="nav-link text-gray-400 hover:text-white text-sm font-display font-600 transition-colors">Projeto</a>
         <a href="#protocolos" class="nav-link text-gray-400 hover:text-white text-sm font-display font-600 transition-colors">Protocolos</a>
+        <a href="guia_5G.html" class="nav-link text-gray-400 hover:text-white text-sm font-display font-600 transition-colors">5G</a>
+        <a href="#segundo-bimestre" class="nav-link text-gray-400 hover:text-white text-sm font-display font-600 transition-colors">Trabalhos</a>
       </div>
     </div>
   </nav>
@@ -428,6 +432,53 @@
           </div>
           <a href="arquivos-de-projetos/ipv6_e_ipv4.pdf" class="inline-block mt-3 text-[#a78bfa] text-xs font-semibold hover:underline">Ver guia completo →</a>
         </div>
+
+  </section>
+
+  <!-- Divisor -->
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="h-px bg-gradient-to-r from-transparent via-[#1e1e2e] to-transparent"></div>
+  </div>
+
+  <!-- ======================== SEGUNDO BIMESTRE ======================== -->
+  <section id="segundo-bimestre" class="py-24 relative">
+    <div class="max-w-6xl mx-auto px-6">
+      <!-- Label -->
+      <div class="flex items-center gap-3 mb-4 animate-on-scroll">
+        <span class="section-label tag-redes px-3 py-1 rounded-full">// 04 — TRABALHOS</span>
+      </div>
+      
+      <h2 class="font-display font-800 text-4xl md:text-5xl text-white mb-4 animate-on-scroll">
+        Trabalhos do <span class="bg-gradient-to-r from-[#6c63ff] to-[#00d4ff] bg-clip-text text-transparent">Segundo Bimestre</span>
+      </h2>
+      
+      <p class="text-gray-400 text-lg max-w-full mb-16 animate-on-scroll leading-relaxed">
+        Projetos e trabalhos acadêmicos desenvolvidos durante o segundo bimestre da disciplina de Redes de Computadores.
+      </p>
+
+      <!-- Grid de Trabalhos -->
+      <div class="grid md:grid-cols-2 gap-6 animate-on-scroll">
+               <!-- 5G & Redes Móveis -->
+        <div class="card-hover bg-[#111118] rounded-2xl p-7 animate-on-scroll">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#00d4ff] to-[#6c63ff] flex items-center justify-center mb-5">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </div>
+          <span class="tag-5g px-2 py-1 rounded text-xs mb-3 inline-block">Redes Móveis</span>
+          <h3 class="font-display font-700 text-white text-xl mb-2">5G & Redes Móveis</h3>
+          <p class="text-gray-400 text-sm mb-4 leading-relaxed">
+            Tecnologia de redes móveis de quinta geração. O 5G oferece velocidades de 1-20 Gbps, baixíssima latência, Network Slicing e conexão massiva de dispositivos IoT.
+          </p>
+          <div class="text-xs text-gray-500">
+            <p><span class="font-semibold">Velocidade:</span> 1-20 Gbps</p>
+            <p><span class="font-semibold">Função:</span> Redes móveis de próxima geração</p>
+          </div>
+          <a href="guia_5G.html" class="inline-block mt-3 text-[#00d4ff] text-xs font-semibold hover:underline">Ver guia completo →</a>
+        </div>
+
+      </div>
+    </div>
   </section>
 
   <!-- Divisor -->
@@ -451,6 +502,7 @@
             <li><a href="#redes" class="text-gray-400 hover:text-white transition-colors">Redes</a></li>
             <li><a href="#projeto" class="text-gray-400 hover:text-white transition-colors">Projeto</a></li>
             <li><a href="#protocolos" class="text-gray-400 hover:text-white transition-colors">Protocolos</a></li>
+            <li><a href="#segundo-bimestre" class="text-gray-400 hover:text-white transition-colors">Trabalhos</a></li>
           </ul>
         </div>
         <div>
@@ -467,6 +519,7 @@
             <li><a href="guia-telnet-ssh.html" class="text-gray-400 hover:text-white transition-colors">Telnet & SSH</a></li>
             <li><a href="guia-ftp.html" class="text-gray-400 hover:text-white transition-colors">FTP & SFTP</a></li>
             <li><a href="guia-ipv4-ipv6.html" class="text-gray-400 hover:text-white transition-colors">IPv4 & IPv6</a></li>
+            <li><a href="guia_5G.html" class="text-gray-400 hover:text-white transition-colors">5G & Redes Móveis</a></li>
             <li><a href="referencias.html" class="text-gray-400 hover:text-white transition-colors">Referências</a></li>
           </ul>
         </div>
